@@ -82,7 +82,7 @@ export const Meme = () => {
                     <input onChange={(e) => updateCaption(e, index)} key={index} />
                 ))
             }
-            <img src={memes[memeIndex].url}/>
+            <img alt='meme' src={memes[memeIndex].url}/>
         </div> : 
         <></>
     )
