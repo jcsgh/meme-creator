@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import styles from './styles.module.css'
+ 
 export const Meme = () => {
 
     const[memes, setMemes] = useState([]);
@@ -14,6 +15,11 @@ export const Meme = () => {
     }, [])
 
     return(
-        memes.length ? <img src={memes[0].url}/> : <>Hello</>
+        memes.length ? 
+        <div>
+            <button className={styles.skip}>Skip</button>
+            <img src={memes[0].url}/>
+        </div> : 
+        <></>
     )
 };
