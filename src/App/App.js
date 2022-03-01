@@ -7,16 +7,17 @@
 import React from 'react'
 import { Meme } from "../Meme/Meme"
 import { Switch, Route } from "react-router-dom"
+import { MemeGenerated } from '../MemeGenerated/MemeGenerated';
 
 
 export const App = () => {
   return (
     <Switch>
-      <Route path='/'>
+      <Route exact path='/'>
         <Meme />
       </Route>
       <Route path='/generated'>
-        <Meme />
+        <MemeGenerated />
       </Route>
     </Switch>
   );
