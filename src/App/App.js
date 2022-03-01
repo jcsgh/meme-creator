@@ -4,11 +4,21 @@
 
 // import styles from "./styles.module.css"
 
+import React from 'react'
 import { Meme } from "../Meme/Meme"
+import { Switch, Route } from "react-router-dom"
+
 
 export const App = () => {
   return (
-    <Meme />
+    <Switch>
+      <Route path='/'>
+        <Meme />
+      </Route>
+      <Route path='/generated'>
+        <Meme />
+      </Route>
+    </Switch>
   );
 }
 
