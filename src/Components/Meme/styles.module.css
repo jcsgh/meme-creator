@@ -1,5 +1,10 @@
 .container {
     margin-top: 50px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .skip {
     background-color: #f0ad4e;

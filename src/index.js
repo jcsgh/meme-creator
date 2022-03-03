@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { App } from './App/App.js';
+import { App } from './Components/App/App.js';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  // <Provider store={store}></Provider> // wrap around when applying redux middleware
   <React.StrictMode>
     <BrowserRouter>
       <App />
