@@ -10,6 +10,8 @@ import { Footer } from '../Footer/Footer.js'
 import NavBar from '../NavBar/NavBar'
 import { Meme } from "../Meme/Meme"
 import { MemeGenerated } from '../MemeGenerated/MemeGenerated';
+import {About} from '../About/About'
+import {Favorites} from '../Favorites/Favorites'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
@@ -32,6 +34,12 @@ export const App = () => {
       </Route>
       <Route path='/generated'>
         <MemeGenerated />
+      </Route>
+      <Route path='/about'>
+        <About />
+      </Route>
+      <Route path='/favorites'>
+        <Favorites />
       </Route>
     </Switch>
     </div>
