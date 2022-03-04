@@ -21,16 +21,16 @@ export const Footer = () => {
                     <a href="https://github.com/jcsgh/meme-maker" target="_blank" className="git-icon">
                       <ion-icon name="logo-github" size="large"></ion-icon>
                    </a>
-                   <a href="/" target="" className="insta-icon">
+                   <a href="" target="" className="insta-icon">
                       <ion-icon name="logo-instagram" size="large"></ion-icon>
                    </a>
-                   <a href="/" target="" className="facebook-icon">
+                   <a href="" target="" className="facebook-icon">
                       <ion-icon name="logo-facebook" size="large"></ion-icon>
                    </a>
-                   <a href="/" target="" className="twitter-icon">
+                   <a href="" target="" className="twitter-icon">
                       <ion-icon name="logo-twitter" size="large"></ion-icon>
                    </a>
-                   <a href="#" target="" className="reddit-icon">
+                   <a href="" target="" className="reddit-icon">
                       <ion-icon name="logo-reddit" size="large"></ion-icon>
                    </a>
 

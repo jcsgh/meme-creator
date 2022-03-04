@@ -6,6 +6,7 @@ import { useClipboard } from 'use-clipboard-copy';
 export const MemeGenerated = () => {
 
   const [copied, setCopied] = useState(false);
+  const [favorite, setFavorite] = useState(false);
 
   const clipboard = useClipboard();
   const history = useHistory();
@@ -17,6 +18,10 @@ export const MemeGenerated = () => {
     setCopied(true);
   };
 
+  const Favorite = () => {
+    setFavorite(true)
+  }
+
   return(
     <div className={styles.container}>
       <button onClick={() => history.push('/')} className={styles.home}>
@@ -25,6 +30,9 @@ export const MemeGenerated = () => {
       { url && <img alt='meme' src={url} /> }
       <button onClick={copyLink} className={styles.copy}>
         {copied ? 'Link copied!' : 'Copy link'}
+      </button>
+      <button onClick={Favorite} className={styles.fav}>
+        {favorite ? 'Added to Favorites!' : 'Add to Favorites'}
       </button>
     </div>
   );
