@@ -55,7 +55,7 @@ h3 {
 
 .main-footer {
   color: white;
-  background-color: #dc3545;
+  background-color: black;
   padding-top: 3em;
   position: relative;
   bottom: 0;
@@ -70,4 +70,9 @@ h3 {
 
 .content-wrap {
   flex:1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
 }

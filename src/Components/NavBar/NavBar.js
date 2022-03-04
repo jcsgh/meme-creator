@@ -8,7 +8,7 @@ import {
 const NavBar = () => {
     return(
         <div className="App">
-    <ReactBootStrap.Navbar collapseOnSelect expand="xl" bg="danger" variant="dark">
+    <ReactBootStrap.Navbar collapseOnSelect expand="xl" bg="black" variant="dark">
   <ReactBootStrap.Navbar.Brand href="#">Meme Creator</ReactBootStrap.Navbar.Brand>
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
@@ -18,11 +18,6 @@ const NavBar = () => {
     </Link>
     <Link to="/">
     <ReactBootStrap.Nav.Link href="#">About</ReactBootStrap.Nav.Link>
-    </Link>
-    </ReactBootStrap.Nav>
-    <ReactBootStrap.Nav>
-    <Link to="/">
-    <ReactBootStrap.Nav.Link href="#">Contact</ReactBootStrap.Nav.Link>
     </Link>
     <Link to="/">
     <ReactBootStrap.Nav.Link eventKey={2} href="#">

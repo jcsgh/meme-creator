@@ -38,9 +38,12 @@ export const Footer = () => {
             </div>
             <hr />
             <div className="row">
-              <p clasName="col-sm">
+              <p className="col-sm">
                   &copy;{new Date().getFullYear()} Meme$ INC | All rights reserved | Terms Of Service | Privacy
               </p>
+              <a href="https://github.com/jcsgh/memes4me" target="_blank" className="git-icon">
+                <ion-icon name="logo-github" size="large"></ion-icon>
+              </a>
             </div>
           </div>
       </div>

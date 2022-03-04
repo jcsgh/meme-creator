@@ -1,6 +1,6 @@
-# Memes 4 Me
+# Meme Maker
 
-### Are you bored? "Memes For Me" is perfect for you. Create your own memes that you enjoy and share them with your family, friends, and fellow meme lovers.
+### Are you bored? "Meme Maker" is perfect for you. Create your own memes that you enjoy and share them with your family & friends.
 
 [Link to App](https://memes-for-me.herokuapp.com/)
 
